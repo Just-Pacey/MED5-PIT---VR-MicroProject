@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TeleportationTest.unity
-    guid: 747c0e8d84a7a7b4cb2a6bdef9a765f0
+    path: Assets/Scenes/Main.unity
+    guid: 175cf6606f0cd5542ab9cd33ce44f20b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
