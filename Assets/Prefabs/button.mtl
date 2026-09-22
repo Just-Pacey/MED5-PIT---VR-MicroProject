@@ -1,0 +1,15 @@
+newmtl mat_base
+Ka 0.15 0.15 0.15
+Kd 0.35 0.35 0.38
+Ks 0.2 0.2 0.2
+Ns 20
+d 1.0
+illum 2
+
+newmtl mat_cap
+Ka 0.2 0.02 0.02
+Kd 0.75 0.1 0.1
+Ks 0.4 0.4 0.4
+Ns 60
+d 1.0
+illum 2
