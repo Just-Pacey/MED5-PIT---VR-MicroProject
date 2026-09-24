@@ -1,0 +1,23 @@
+newmtl mat_handle
+Ka 0.05 0.05 0.05
+Kd 0.12 0.12 0.13
+Ks 0.1 0.1 0.1
+Ns 10
+d 1.0
+illum 2
+
+newmtl mat_metal
+Ka 0.2 0.2 0.22
+Kd 0.55 0.56 0.58
+Ks 0.8 0.8 0.8
+Ns 90
+d 1.0
+illum 2
+
+newmtl mat_brass
+Ka 0.25 0.18 0.05
+Kd 0.72 0.55 0.22
+Ks 0.6 0.5 0.3
+Ns 60
+d 1.0
+illum 2
