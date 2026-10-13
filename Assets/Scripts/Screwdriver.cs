@@ -52,11 +52,6 @@ public class Screwdriver : MonoBehaviour
 
         currentIndex = (currentIndex + 1) % carriedBits.Count;
         SwapVisual(carriedBits[currentIndex]);
-
-        // ============================================================
-        // ADD LOGIC FOR WHEN THE HEAD CHANGES HERE (e.g. a click sound,
-        // haptic pulse, or updating a UI icon for the equipped bit).
-        // ============================================================
     }
 
     private void SwapVisual(ScrewdriverBitProfile bit)

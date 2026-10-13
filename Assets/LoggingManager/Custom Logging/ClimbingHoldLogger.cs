@@ -14,12 +14,12 @@ public class ClimbingHoldLogger : MonoBehaviour
     private bool isBeingClimbed;
     private Stopwatch stopwatch;
 
-    private void Awake()
+    /*private void Awake()
     {
         interactable = GetComponent<XRBaseInteractable>();
         loggingManager = GameObject.Find("Logging").GetComponent<LoggingManager>();
         loggingManager.CreateLog("Event", headers: new List<string>() {"ClimbingHoldName", "OnGrab", "OnRelease", "ClimbDuration"});
-    }
+    }*/
 
     private void OnEnable()
     {
