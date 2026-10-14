@@ -386,7 +386,7 @@ Transform:
   m_GameObject: {fileID: 38953031}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.595, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2879,11 +2879,6 @@ MonoBehaviour:
   cableRenderer: {fileID: 561349388}
   normalColor: {r: 0, g: 0, b: 0, a: 1}
   poweredColor: {r: 0, g: 1, b: 0, a: 1}
---- !u!4 &606479847 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -7370156802671013846, guid: 97d0e12f8b1f5f1429b31aadba0d558f, type: 3}
-  m_PrefabInstance: {fileID: 1992445395}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &609583514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5575,7 +5570,7 @@ Transform:
   m_GameObject: {fileID: 1456256544}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.194, z: 0}
+  m_LocalPosition: {x: 0, y: 0.19399999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5609,7 +5604,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7821,15 +7816,15 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AutoFindParentInteractableInHierarchy: 0
   m_ParentInteractableObject: {fileID: 0}
-  m_AttachTransform: {fileID: 606479847}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
-  m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_AttachEaseInTime: 0
+  m_MovementType: 1
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1

@@ -77,14 +77,8 @@ public class Screw : MonoBehaviour
     {
         isUnscrewed = true;
         engagedTip = null;
-
-        // ============================================================
-        // ADD YOUR "SCREW REMOVED" LOGIC HERE, e.g.:
-        // - disable this collider so the screwdriver no longer engages it
-        // - swap this screw's visual for a loose, grabbable screw prop
-        // - play a pop/drop sound
-        // ============================================================
         GetComponent<Collider>().enabled = false;
+        
 
         OnUnscrewed?.Invoke();
     }
