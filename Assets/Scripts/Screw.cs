@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -51,6 +52,10 @@ public class Screw : MonoBehaviour
     [Tooltip("Off = the screw is just hidden (SetActive false). On = it is destroyed.")]
     [SerializeField] private bool destroyWhenDone = false;
 
+    [Header("Snapping")]
+    [Tooltip("Where the bit tip should seat, in the screw's local space. The default is the middle of the head top on the generated screws.")]
+    [SerializeField] private Vector3 snapPointLocal = new Vector3(0f, 0.0237f, 0f);
+
     [Header("Debugging")]
     [Tooltip("Logs trigger enter/exit, bit mismatches and progress in 10% steps. Turn off once it works.")]
     [SerializeField] private bool debugLogging = true;
@@ -58,6 +63,18 @@ public class Screw : MonoBehaviour
     [Header("Events")]
     public UnityEvent OnUnscrewed; // fires the moment the last degree of rotation is done
     public UnityEvent<float> OnProgressChanged; // 0-1 normalized, handy for a progress bar
+
+    /// <summary>All screws currently enabled in the scene. ScrewdriverSnap searches this to find a screw to snap onto.</summary>
+    public static readonly List<Screw> Active = new List<Screw>();
+
+    public bool IsUnscrewed => isUnscrewed;
+    public ScrewdriverBitProfile RequiredBit => requiredBit;
+
+    /// <summary>World position where the bit tip should seat. Follows the screw as it slides out.</summary>
+    public Vector3 SnapPointWorld => transform.TransformPoint(snapPointLocal);
+
+    /// <summary>World direction the screw head faces (toward the person unscrewing it).</summary>
+    public Vector3 OutwardAxisWorld => transform.TransformDirection(backOutAxisLocal.normalized);
 
     private ScrewdriverTip engagedTip;
     private Quaternion lastTipRotation;
@@ -73,6 +90,10 @@ public class Screw : MonoBehaviour
     private float moveVelocity;
     private float appliedMove01 = -1f;
     private float appliedSpinDegrees = float.NaN;
+
+    private void OnEnable() => Active.Add(this);
+
+    private void OnDisable() => Active.Remove(this);
 
     private void Awake()
     {
@@ -231,6 +252,12 @@ public class Screw : MonoBehaviour
 
         if (debugLogging)
             Debug.Log($"[Screw {name}] unscrewed", this);
+
+        // ============================================================
+        // ADD YOUR "SCREW REMOVED" LOGIC HERE, e.g. a pop sound, or
+        // counting how many screws are out to open the box. (The screw
+        // itself keeps sliding out and then disappears on its own.)
+        // ============================================================
 
         OnUnscrewed?.Invoke();
         StartCoroutine(FinishRoutine());
