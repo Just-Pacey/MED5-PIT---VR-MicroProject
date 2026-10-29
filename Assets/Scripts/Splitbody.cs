@@ -67,6 +67,40 @@ public class SplitBody : MonoBehaviour
 
     public bool IsSplit => isSplit;
 
+    /// <summary>True while the lower body is split off, including the short blend back after rejoining. IKFootSolver uses this to follow the lower body instead of the head.</summary>
+    public bool LowerBodyDetached => isSplit || blend > 0f;
+
+    /// <summary>The XR Origin, which carries the pinned lower body around.</summary>
+    public Transform XROrigin => xrOrigin;
+
+    /// <summary>
+    /// Converts a pose where the lower body should END UP into the pose the rig has to aim at BEFORE the split moves the hips.
+    /// IKFootSolver places its foot targets with this. The legs are solved relative to the head-driven hips and are then carried
+    /// along when the hips are pinned, so aiming at the converted pose makes the feet land exactly on the wanted pose.
+    /// It changes nothing while the body is not split.
+    /// </summary>
+    public void ToRiggedFrame(Vector3 finalPosition, Quaternion finalRotation, out Vector3 riggedPosition, out Quaternion riggedRotation)
+    {
+        riggedPosition = finalPosition;
+        riggedRotation = finalRotation;
+        if (!ready || blend <= 0f) return;
+
+        // Where the hips are while the rig solves (the normal head-driven pose), and where they end up (blended towards the pin).
+        Transform parent = hips.parent;
+        Vector3 riggedHipsPosition = parent != null ? parent.TransformPoint(restHipsLocalPosition) : restHipsLocalPosition;
+        Quaternion riggedHipsRotation = parent != null ? parent.rotation * restHipsLocalRotation : restHipsLocalRotation;
+
+        Vector3 anchoredPosition = xrOrigin.TransformPoint(anchorLocalPosition);
+        Quaternion anchoredRotation = xrOrigin.rotation * anchorLocalRotation;
+        Vector3 finalHipsPosition = Vector3.Lerp(riggedHipsPosition, anchoredPosition, blend);
+        Quaternion finalHipsRotation = Quaternion.Slerp(riggedHipsRotation, anchoredRotation, blend);
+
+        // The legs move rigidly with the hips, so undo that same movement.
+        Quaternion hipsRotationChange = riggedHipsRotation * Quaternion.Inverse(finalHipsRotation);
+        riggedPosition = riggedHipsPosition + hipsRotationChange * (finalPosition - finalHipsPosition);
+        riggedRotation = hipsRotationChange * finalRotation;
+    }
+
     /// <summary>Points that must be through the wall for the upper body to count as through.</summary>
     public Transform[] UpperPoints { get; private set; }
 
@@ -194,7 +228,13 @@ public class SplitBody : MonoBehaviour
     // Runs after locomotion, so the wall can push back against thumbstick and walking movement.
     private void Update()
     {
-        if (ready && collideWithWall)
+        if (!ready) return;
+
+        // Make sure the rig solves the legs with the hips and spine in their normal, head-driven pose,
+        // whether or not the animator rewrites bones every frame. LateUpdate pins the hips again after the solve.
+        UndoOwnWrite();
+
+        if (collideWithWall)
             ResolveWallCollision();
     }
 

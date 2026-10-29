@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 7496322a85e5b5c408cbdc034e9f7813
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7471225778984832560
+    second: teddy_bear_winner_spritesheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ec12103402fa760800000000000000
+      internalID: 7471225778984832560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cfa123d4de95046a02df878efb0faf
+      internalID: -1930543574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea57b9ae0a153748bde1ca102decd76
+      internalID: -762431937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2624c2be5fc754f86516494ce3eac3
+      internalID: 618946242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9931e3ce809cf314ba9d6f3384927966
+      internalID: -1957177198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1f0483f208ca4b923703bd91299f2
+      internalID: 1109149708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25f5f3e1bdfef549b1ef2435b92f49c
+      internalID: -1132508410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 2993
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124e7d556c3268f449e63285c877e992
+      internalID: 476343475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff26a99e8949554483eb561bd009b66
+      internalID: -222324429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad40ee4cb4716c4459fa828e3bbdd3b6
+      internalID: -1316823837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b93ab08ae95643a7c462b87e5993f
+      internalID: 588601114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d27934e0ac74dc409726e5919a19493
+      internalID: -1407013076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216c218421bbd54fab144d4fa484e4b
+      internalID: 1621354305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55d38b13f1dfd34ba05ad6f3953655c
+      internalID: 1605398539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4a781739c64a449f3e2442eeba2db
+      internalID: 1961891841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 2495
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cb78e07ceffbb42892300f21e19ddd
+      internalID: -1564307408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f49c5c34db7b48972d4bde81b86d7
+      internalID: -555515660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1960908c7c7ec814b9c7571d524eab90
+      internalID: 495124624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af39cab0013c62439a0115daa9b5419
+      internalID: -1998421556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f6924a309f22c4e82c4ed17e6dd692
+      internalID: 873979583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de419eb3e7f95e4a8965130f9999648
+      internalID: -639656673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d7433e642237409f64cb7a635ffe3
+      internalID: -1302357660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c095637b92ccf4e9957bcca23241a3
+      internalID: 700737983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1997
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065cda22c1141084f88a0a7b39c1abd9
+      internalID: -241992332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb974a476e132a4293cf3b8c147de97
+      internalID: -1585739219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ca87d25911ae4593d35c29de22207
+      internalID: 527512561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cd6e69e37c62449ae4b83d126a6b95
+      internalID: -1017012594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3767953809ee9614cb5dc7ca03112e4f
+      internalID: 540937803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb722cceaf803446b17ea3389b32f62
+      internalID: 1525644136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4446c453f1783314180e9ab0f4b0bd88
+      internalID: 2103607001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d7f68532f5a246bceee860b86f6a5
+      internalID: 890597559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1499
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01b235cbe1676e4ba3dbf063ba33353
+      internalID: 181157081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323219dcad52f74083209c4ed88e656
+      internalID: 1947066401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9bc621a27622e4084756885228ff97
+      internalID: -1813304191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b3ff5b86794ce4e8d81c108d35bea4
+      internalID: 626525858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e90ebdbe5e62f348a059bbdc0d3e857
+      internalID: -502694592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9fe4907239c414fa32afacc4d53d48
+      internalID: -937948980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f2dbe4a50c1d94295b31aaefdb54df
+      internalID: -1445772545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f93cf37cd0524aaed4fcff1612c91
+      internalID: 1285115802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1001
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940783822c834845a216a8a024c6e78
+      internalID: 2075669074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4272ae9326def7f4ba7817bbae29a1ec
+      internalID: 1107385339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f9406c2515d0a44ba992ee29db820b
+      internalID: 1243921026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64a96567d0c9a1498b1ac983d533d9d
+      internalID: 1300919207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5238168b983a73a4fa54af495f439034
+      internalID: -1614210482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc585daf7987554ab11787fcb5b984d
+      internalID: 1619917720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf594ebc18ff64cbe6276d9b2ba1ef
+      internalID: -842095249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92df6a4e08ec9b546b18544bda996daf
+      internalID: 1008875222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 503
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f55724b52eb350429d5bfd95c4b5db1
+      internalID: -597519043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d02282d72799448999f05ae3e9bf54
+      internalID: -1676886463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 5
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e98ce3b0e7364a4abd53db2679deba3
+      internalID: -1440895103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teddy_bear_winner_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 5
+        width: 463
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9390a7463e7b45546a9807822d6ca70f
+      internalID: 1826607002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d5c5d11e8414574490202188a85647a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":7.0},"gridSpriteSize":{"x":463.0,"y":488.0},"gridSpriteOffset":{"x":5.0,"y":5.0},"gridSpritePadding":{"x":10.0,"y":10.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      teddy_bear_winner_spritesheet_0: 7471225778984832560
+      teddy_bear_winner_spritesheet_1: -1930543574
+      teddy_bear_winner_spritesheet_10: 588601114
+      teddy_bear_winner_spritesheet_11: -1407013076
+      teddy_bear_winner_spritesheet_12: 1621354305
+      teddy_bear_winner_spritesheet_13: 1605398539
+      teddy_bear_winner_spritesheet_14: 1961891841
+      teddy_bear_winner_spritesheet_15: -1564307408
+      teddy_bear_winner_spritesheet_16: -555515660
+      teddy_bear_winner_spritesheet_17: 495124624
+      teddy_bear_winner_spritesheet_18: -1998421556
+      teddy_bear_winner_spritesheet_19: 873979583
+      teddy_bear_winner_spritesheet_2: -762431937
+      teddy_bear_winner_spritesheet_20: -639656673
+      teddy_bear_winner_spritesheet_21: -1302357660
+      teddy_bear_winner_spritesheet_22: 700737983
+      teddy_bear_winner_spritesheet_23: -241992332
+      teddy_bear_winner_spritesheet_24: -1585739219
+      teddy_bear_winner_spritesheet_25: 527512561
+      teddy_bear_winner_spritesheet_26: -1017012594
+      teddy_bear_winner_spritesheet_27: 540937803
+      teddy_bear_winner_spritesheet_28: 1525644136
+      teddy_bear_winner_spritesheet_29: 2103607001
+      teddy_bear_winner_spritesheet_3: 618946242
+      teddy_bear_winner_spritesheet_30: 890597559
+      teddy_bear_winner_spritesheet_31: 181157081
+      teddy_bear_winner_spritesheet_32: 1947066401
+      teddy_bear_winner_spritesheet_33: -1813304191
+      teddy_bear_winner_spritesheet_34: 626525858
+      teddy_bear_winner_spritesheet_35: -502694592
+      teddy_bear_winner_spritesheet_36: -937948980
+      teddy_bear_winner_spritesheet_37: -1445772545
+      teddy_bear_winner_spritesheet_38: 1285115802
+      teddy_bear_winner_spritesheet_39: 2075669074
+      teddy_bear_winner_spritesheet_4: -1957177198
+      teddy_bear_winner_spritesheet_40: 1107385339
+      teddy_bear_winner_spritesheet_41: 1243921026
+      teddy_bear_winner_spritesheet_42: 1300919207
+      teddy_bear_winner_spritesheet_43: -1614210482
+      teddy_bear_winner_spritesheet_44: 1619917720
+      teddy_bear_winner_spritesheet_45: -842095249
+      teddy_bear_winner_spritesheet_46: 1008875222
+      teddy_bear_winner_spritesheet_47: -597519043
+      teddy_bear_winner_spritesheet_48: -1676886463
+      teddy_bear_winner_spritesheet_49: -1440895103
+      teddy_bear_winner_spritesheet_5: 1109149708
+      teddy_bear_winner_spritesheet_50: 1826607002
+      teddy_bear_winner_spritesheet_6: -1132508410
+      teddy_bear_winner_spritesheet_7: 476343475
+      teddy_bear_winner_spritesheet_8: -222324429
+      teddy_bear_winner_spritesheet_9: -1316823837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
